@@ -1,0 +1,45 @@
+.toolbar {
+    display: flex;
+    background-color: #DDDEE1;
+    color: #578787;
+    padding: 16px;
+}
+
+.toolbar h1 {
+    margin: 0;
+    color: #353A46;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.footer {
+    display: flex;
+    background-color: #DDDEE1;
+    align-items: center;
+    padding: 16px;
+    color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+    padding: 12px;
+    background-color: #018dff;
+    height: 42px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid #018dff;
+    outline: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #017EFF;
+    border: 1px solid #017EFF;
+    color: whitesmoke;
+}
